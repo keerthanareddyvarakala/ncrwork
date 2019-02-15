@@ -35,6 +35,10 @@ public:
 			minutes++;
 			seconds = seconds-60;
 		}
+		if (hours > 23)
+		{
+			hours = 0;
+		}
 
 	}
 };
