@@ -1,0 +1,9 @@
+﻿  ChildProcess.cpp
+c:\users\varak\desktop\work\consoleapplication7\childprocess\childprocess.cpp(16): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  c:\users\varak\desktop\work\consoleapplication7\childprocess\childprocess.cpp(16): note: consider using '%ls' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\childprocess\childprocess.cpp(16): note: consider using '%lls' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\childprocess\childprocess.cpp(16): note: consider using '%Ls' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\childprocess\childprocess.cpp(16): note: consider using '%ws' in the format string
+c:\users\varak\desktop\work\consoleapplication7\childprocess\childprocess.cpp(39): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+  ChildProcess.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ChildProcess.exe
+  ChildProcess.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ChildProcess.pdb (Full PDB)

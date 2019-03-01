@@ -1,0 +1,5 @@
+﻿  handleInherit.cpp
+c:\users\varak\desktop\work\consoleapplication7\handleinherit\handleinherit.cpp(33): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\varak\desktop\work\consoleapplication7\handleinherit\handleinherit.cpp(10): warning C4101: 'hproc': unreferenced local variable
+  HandleInherit.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\HandleInherit.exe
+  HandleInherit.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\HandleInherit.pdb (Full PDB)

@@ -1,0 +1,7 @@
+﻿  readFile.cpp
+c:\users\varak\desktop\work\consoleapplication7\consoleapplication3\readfile.cpp(43): warning C4477: 'wprintf' : format string '%S' requires an argument of type 'char *', but variadic argument 2 has type 'TCHAR *'
+  c:\users\varak\desktop\work\consoleapplication7\consoleapplication3\readfile.cpp(43): note: consider using '%lS' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\consoleapplication3\readfile.cpp(43): note: consider using '%llS' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\consoleapplication3\readfile.cpp(43): note: consider using '%LS' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\consoleapplication3\readfile.cpp(43): note: consider using '%wS' in the format string
+LINK : fatal error LNK1168: cannot open C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ConsoleApplication3.exe for writing

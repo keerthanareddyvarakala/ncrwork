@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\varak\desktop\work\consoleapplication7\consoleapplication7\source.cpp(48): warning C4477: 'printf' : format string '%S' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'char *'
+  c:\users\varak\desktop\work\consoleapplication7\consoleapplication7\source.cpp(48): note: consider using '%hS' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\consoleapplication7\source.cpp(48): note: consider using '%TS' in the format string
+  ConsoleApplication7.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ConsoleApplication7.exe
+  ConsoleApplication7.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ConsoleApplication7.pdb (Full PDB)

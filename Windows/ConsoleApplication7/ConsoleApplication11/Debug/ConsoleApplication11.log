@@ -1,0 +1,6 @@
+﻿  Process.cpp
+c:\users\varak\desktop\work\consoleapplication7\consoleapplication11\process.cpp(32): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\varak\desktop\work\consoleapplication7\consoleapplication11\process.cpp(43): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\varak\desktop\work\consoleapplication7\consoleapplication11\process.cpp(10): warning C4101: 'hproc': unreferenced local variable
+  ConsoleApplication11.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ConsoleApplication11.exe
+  ConsoleApplication11.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ConsoleApplication11.pdb (Full PDB)

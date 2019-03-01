@@ -1,0 +1,8 @@
+﻿  threadInfo.cpp
+c:\users\varak\desktop\work\consoleapplication7\threadinfo\threadinfo.cpp(34): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  c:\users\varak\desktop\work\consoleapplication7\threadinfo\threadinfo.cpp(34): note: consider using '%ls' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\threadinfo\threadinfo.cpp(34): note: consider using '%lls' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\threadinfo\threadinfo.cpp(34): note: consider using '%Ls' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\threadinfo\threadinfo.cpp(34): note: consider using '%ws' in the format string
+  ThreadInfo.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ThreadInfo.exe
+  ThreadInfo.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ThreadInfo.pdb (Full PDB)

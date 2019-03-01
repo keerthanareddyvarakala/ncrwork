@@ -1,0 +1,8 @@
+﻿  READ.cpp
+c:\users\varak\desktop\work\consoleapplication7\consoleapplication5\read.cpp(42): warning C4477: 'wprintf' : format string '%hS' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  c:\users\varak\desktop\work\consoleapplication7\consoleapplication5\read.cpp(42): note: consider using '%lS' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\consoleapplication5\read.cpp(42): note: consider using '%llS' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\consoleapplication5\read.cpp(42): note: consider using '%LS' in the format string
+  c:\users\varak\desktop\work\consoleapplication7\consoleapplication5\read.cpp(42): note: consider using '%wS' in the format string
+  ConsoleApplication5.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ConsoleApplication5.exe
+  ConsoleApplication5.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\ConsoleApplication5.pdb (Full PDB)
