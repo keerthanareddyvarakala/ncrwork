@@ -1,0 +1,11 @@
+﻿  string.c
+c:\users\varak\desktop\work\project1\3\string.c(17): warning C4047: 'return': 'int *' differs in levels of indirection from 'int'
+c:\users\varak\desktop\work\project1\3\string.c(27): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\varak\desktop\work\project1\3\string.c(27): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\varak\desktop\work\project1\3\string.c(27): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\varak\desktop\work\project1\3\string.c(27): note: this argument is used as a buffer size
+c:\users\varak\desktop\work\project1\3\string.c(28): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\varak\desktop\work\project1\3\string.c(28): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\varak\desktop\work\project1\3\string.c(28): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\varak\desktop\work\project1\3\string.c(28): note: this argument is used as a buffer size
+LINK : fatal error LNK1168: cannot open C:\Users\varak\Desktop\work\Project1\Debug\3.exe for writing
