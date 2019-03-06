@@ -1,0 +1,16 @@
+﻿  sub.cpp
+c:\users\varak\desktop\work\consoleapplication7\dll\sub.cpp(6): warning C4273: 'sub': inconsistent dll linkage
+  c:\users\varak\desktop\work\consoleapplication7\dll\mylib.h(8): note: see previous definition of 'sub'
+  mul.cpp
+c:\users\varak\desktop\work\consoleapplication7\dll\mul.cpp(6): warning C4273: 'mul': inconsistent dll linkage
+  c:\users\varak\desktop\work\consoleapplication7\dll\mylib.h(9): note: see previous definition of 'mul'
+  divi.cpp
+c:\users\varak\desktop\work\consoleapplication7\dll\divi.cpp(5): warning C4273: 'divi': inconsistent dll linkage
+  c:\users\varak\desktop\work\consoleapplication7\dll\mylib.h(10): note: see previous definition of 'divi'
+  add.cpp
+c:\users\varak\desktop\work\consoleapplication7\dll\add.cpp(5): warning C4273: 'add': inconsistent dll linkage
+  c:\users\varak\desktop\work\consoleapplication7\dll\mylib.h(7): note: see previous definition of 'add'
+  Generating Code...
+     Creating library C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\dllllll.lib and object C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\dllllll.exp
+  dllllll.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\dllllll.dll
+  dllllll.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\dllllll.pdb (Full PDB)

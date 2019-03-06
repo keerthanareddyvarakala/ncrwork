@@ -1,0 +1,5 @@
+﻿  Srw.cpp
+c:\users\varak\desktop\work\consoleapplication7\srw\srw.cpp(50): warning C4715: 'WriterThread': not all control paths return a value
+c:\users\varak\desktop\work\consoleapplication7\srw\srw.cpp(79): warning C4715: 'ReaderThread': not all control paths return a value
+  SRW.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\SRW.exe
+  SRW.vcxproj -> C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\SRW.pdb (Full PDB)

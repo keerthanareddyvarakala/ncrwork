@@ -1,0 +1,6 @@
+﻿  mylibexe.cpp
+mylibexe.obj : error LNK2019: unresolved external symbol __imp__add referenced in function _main
+mylibexe.obj : error LNK2019: unresolved external symbol __imp__sub referenced in function _main
+mylibexe.obj : error LNK2019: unresolved external symbol __imp__mul referenced in function _main
+mylibexe.obj : error LNK2019: unresolved external symbol __imp__divi referenced in function _main
+C:\Users\varak\Desktop\work\ConsoleApplication7\Debug\LibraryProject.exe : fatal error LNK1120: 4 unresolved externals
