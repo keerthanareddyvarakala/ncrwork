@@ -1,3 +1,4 @@
 ﻿  string.cpp
+c:\users\varak\desktop\work\project1\strings\string.cpp(54): warning C4101: 'res': unreferenced local variable
   Strings.vcxproj -> C:\Users\varak\Desktop\work\Project1\Debug\Strings.exe
   Strings.vcxproj -> C:\Users\varak\Desktop\work\Project1\Debug\Strings.pdb (Partial PDB)

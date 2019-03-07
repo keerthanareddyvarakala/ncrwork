@@ -78,7 +78,7 @@ int postfixEvaluation(string str) {
 				s_eval.pop();
 				left = s_eval.top();
 				s_eval.pop();
-				double res = divi(right, left);
+				double res = divi(left, right);
 				s_eval.push(res);
 			}
 			if (str[i] == '+') {
@@ -176,6 +176,7 @@ int main()
 		}
 		postfixEvaluation(post_eval);
 	}
+	getchar();
 	getchar();
 	return 0;
 }

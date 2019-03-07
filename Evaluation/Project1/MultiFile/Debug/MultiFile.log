@@ -1,4 +1,4 @@
 ﻿  calc.cpp
-c:\users\varak\desktop\work\project1\multifile\calc.cpp(16): warning C4018: '<': signed/unsigned mismatch
+c:\users\varak\desktop\work\project1\multifile\calc.cpp(14): warning C4018: '<': signed/unsigned mismatch
   MultiFile.vcxproj -> C:\Users\varak\Desktop\work\Project1\Debug\MultiFile.exe
   MultiFile.vcxproj -> C:\Users\varak\Desktop\work\Project1\Debug\MultiFile.pdb (Partial PDB)

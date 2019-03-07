@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include<stdlib.h>
 
 
 char *strcpyy(char *s1, const char *s2)
@@ -50,17 +51,23 @@ char *strrevv(char *str)
 
 int main()
 {
-	char str1[30], str2[30];
-	int n = 0;
-	printf("enter the strings:\n");
-	gets_s(str1);
-	gets_s(str2);
+	int n=0, res;
+	char copy[50] = "";
+	char *temp;
+	char *str1;
+	str1 = NULL;
+	str1 = (char*)malloc(50 * sizeof(char));
+	char *str2;
+	str2 = NULL;
+	str2 = (char*)malloc(50 * sizeof(char));
+	printf("Enter two strings:");
+	gets_s(str1, 29);
+	gets_s(str2, 19);
+	temp = str1;
 	while (n <= 5)
 	{
 		printf("1.Length\n2.Copy\n3.Concatenate\n4.Comparison\n5.Reversal\n");
 		scanf_s("%d", &n);
-		char temp[30],temp2[30];
-		strcpyy(temp2, str1);
 		int res;
 		switch (n)
 		{
@@ -70,8 +77,8 @@ int main()
 				printf("length of second string is %d\n", strlength(str2));
 				break;
 			case 2:
-				strcpyy(temp, str2);
-				printf("The string is copied  %s,%s\n", temp,str2);
+				strcpyy(copy, str2);
+				printf("The string is copied  %s,%s\n", copy,str2);
 				break;
 			case 3:
 				strcate(str1, str2);
@@ -94,8 +101,8 @@ int main()
 
 				break;
 			case 5:
-				printf("reversal of first string is %s\n", strrevv(temp2));
-				printf("reversal of first string is %s\n", strrevv(str2));
+				printf("reversal of first string is %s\n", strrevv(str1));
+			
 				break;
 
 		}

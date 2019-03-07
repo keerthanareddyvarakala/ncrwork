@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\ncrwork\Evaluation\2_expandString.c">
+    <ClCompile Include="expandString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
