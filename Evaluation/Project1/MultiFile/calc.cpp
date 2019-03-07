@@ -52,7 +52,7 @@ bool balancingParanthesis(string expression)
 }
 
 int postfixEvaluation(string str) {
-	stack<double> s_eval;
+	stack<double> eval;
 	double left, right;
 	int i = 0;
 
@@ -61,46 +61,46 @@ int postfixEvaluation(string str) {
 		if (isdigit(str[i]))
 		{
 			double a = (double)str[i];
-			s_eval.push(a - 48);
+			eval.push(a - 48);
 		}
 		else
 		{
 			if (str[i] == '*') {
-				right = s_eval.top();
-				s_eval.pop();
-				left = s_eval.top();
-				s_eval.pop();
-				double res = mul(right, left);
-				s_eval.push(res);
+				right = eval.top();
+				eval.pop();
+				left = eval.top();
+				eval.pop();
+				double res = mul(left, right);
+				eval.push(res);
 			}
 			if (str[i] == '/') {
-				right = s_eval.top();
-				s_eval.pop();
-				left = s_eval.top();
-				s_eval.pop();
+				right = eval.top();
+				eval.pop();
+				left = eval.top();
+				eval.pop();
 				double res = divi(left, right);
-				s_eval.push(res);
+				eval.push(res);
 			}
 			if (str[i] == '+') {
-				right = s_eval.top();
-				s_eval.pop();
-				left = s_eval.top();
-				s_eval.pop();
-				double s = add(right, left);
-				s_eval.push(s);
+				right = eval.top();
+				eval.pop();
+				left = eval.top();
+				eval.pop();
+				double s = add(left, right);
+				eval.push(s);
 			}
 			if (str[i] == '-') {
-				left = s_eval.top();
-				s_eval.pop();
-				right = s_eval.top();
-				s_eval.pop();
-				double s = sub(right, left);
-				s_eval.push(s);
+				left = eval.top();
+				eval.pop();
+				right = eval.top();
+				eval.pop();
+				double s = sub(left, right);
+				eval.push(s);
 			}
 		}
 
 	}
-	cout << endl << "result is " << s_eval.top();
+	cout << endl << "result is " << eval.top();
 	return 0;
 }
 
