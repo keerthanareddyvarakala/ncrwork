@@ -38,13 +38,15 @@ void expand(char s1[], char s2[])
 	i = j = 0;
 
 	while ((c = s1[i++]) != '\0')
-		if (s1[i] == '-' && s1[i + 1] >= c)
+		if (s1[i] == '-')
 		{
 			if (s1[i + 1] == '-')
 			{
 				printf("Incorrect input");
 				exit(0);
 			}
+			else if(s1[i + 1] >= c)
+				i++;
 			i++;
 			while (c < s1[i])
 				s2[j++] = c++;
