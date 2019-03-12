@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Address</title>
+</head>
+<body>
+        <script src="jquery-3.3.1.js"></script>
+        <script>
+    jQuery(document).ready(function(){
+        $('input[type="checkbox"]').click(function(){
+            if($(this).prop("checked") == true){
+             
+                $("#hno1").text("#hno");
+            }
+        });
+    });
+function fillAddress()
+    {
+        if (filladdress.checked == true)
+        {
+            var addr = document.getElementById("ParFirstAddr").value;
+            var addrpo = document.getElementById("ParFirstPO").value;
+            var addrps = document.getElementById("ParFirstPS").value;       
+
+           
+            var copyaddr = addr;
+            var copyaddrpo = addrpo;
+            var copyaddrps = addrps;
+            
+            document.getElementById("PreFirstAddr").value = copyaddr;
+            document.getElementById("PreFirstPO").value = copyaddrpo;
+            document.getElementById("PreFirstPS").value = copyaddrps;
+        }
+        else if (filladdress.checked == false)
+        {
+            document.getElementById("PreFirstAddr").value = '';
+            document.getElementById("PreFirstPO").value = '';
+            document.getElementById("PreFirstPS").value = '';
+        }
+    }
+</script>
+    <h1>Current address</h1>
+    <b>House No.</b>
+    <input type="text" id="hno" name="house no" /><br/>
+    <b>Plot No.</b>
+    <input type="text" id="pno" /><br/>
+    <b>Land Mark</b>
+    <input type="text" id="lm" /><br/>
+    <b>District</b>
+    <select>
+        <option value="Ranga Reddy">Ranga Reddy</option>
+        <option value="Nalgonda">Nalgonda</option>
+        <option value="Guntur">Guntur</option>
+        <option value="Warangal">Warangal</option>
+        
+    </select>
+    <br/>
+    <b>Pin Code</b>
+    <input type="number" id="pin">
+    <br/><br/>
+    <b>Permanent address same as current address</b>
+    <input type="checkbox" id="check1" />
+    <br/>
+    <h1>Permanent address</h1>
+    <b>House No.</b>
+    <input type="text" id="hno1" name="house no" /><br/>
+    <b>Plot No.</b>
+    <input type="text" id="pno1" /><br/>
+    <b>Land Mark</b>
+    <input type="text" id="lm1" /><br/>
+    <b>District</b>
+    <select>
+        <option value="Ranga Reddy">Ranga Reddy</option>
+        <option value="Nalgonda">Nalgonda</option>
+        <option value="Guntur">Guntur</option>
+        <option value="Warangal">Warangal</option>
+        
+    </select>
+    <br/>
+    <b>Pin Code</b>
+    <input type="number" id="pin1">
+   
+
+});
+    
+    
+</body>
+</html>

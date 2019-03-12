@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hide Show</title>
+</head>
+<body>
+<script src="jquery-3.3.1.js"></script>
+<script>
+$(document).ready(function(){
+    
+    
+ $("#h").click(function(){
+     if(($("#h").val())=="Hide")
+     { 
+         $("form").hide("slow");
+         $("#h").prop('value', 'Show');
+    
+     }
+
+    else
+        
+    {
+        $("form").show("slow");
+        $("#h").prop('value', 'Hide');
+    }
+
+});
+});
+</script>
+<form>
+
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p> 
+    
+    <hr>
+
+    <label for="Employee ID"><b>ID</b></label>
+    <input type="text" placeholder="Enter ID" name="ID" ><br/>
+    <label for="Employee name"><b>ID</b></label>
+    <input type="text" placeholder="Enter name" name="name" ><br/>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" ><br/>
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat"><br/>
+
+    <button type="submit">Submit</button><br/>
+
+    
+   
+  
+</form>
+    <input id="h" type="button" value="Hide"/>
+
+
+
+</body>
+</html>

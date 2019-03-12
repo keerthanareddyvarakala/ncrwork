@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <script>
+            function getSize() {
+        var fi = document.getElementById('file'); // GET THE FILE INPUT.
+
+        // VALIDATE OR CHECK IF ANY FILE IS SELECTED.
+        if (fi.files.length > 0) {
+            // RUN A LOOP TO CHECK EACH SELECTED FILE.
+            for (var i = 0; i <= fi.files.length - 1; i++) 
+            {
+
+                var fsize = fi.files.item(i).size;      // THE SIZE OF THE FILE.
+                document.getElementById('fp').innerHTML =
+                    document.getElementById('fp').innerHTML + '<br /> ' +
+                        '<b>' + Math.round((fsize / 1024)) + '</b> KB';
+            }
+        }
+    }
+
+    </script>
+    <input id="file" type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" name="submit" onclick="getSize()">
+     <p id="fp"></p>
+
+</body>
+</html>
